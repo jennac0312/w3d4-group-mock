@@ -1,0 +1,426 @@
+body{
+    margin: 0
+}
+
+.scrollBar{
+    height: 25px;
+    background-color: pink;
+    margin-top: -5px;
+    padding: 8px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid pink;
+    padding-bottom: 5px;
+}
+
+.logo {
+    height: 50px;
+    margin: 10px 20px
+}
+
+/* right side */
+.rightSide{
+    display: flex;
+    align-items: center;
+    margin-right: 20px
+}
+
+.searchIcon{
+    height: 20px;
+    margin-left: -30px;
+    margin-bottom: -5px
+}
+
+
+.rightSide input{
+    height: 40px;
+    width: 200px
+}
+
+.rightSide input::placeholder{
+    padding-left: 20px;
+}
+
+
+.rightSide img {
+    height: 20px;
+}
+
+.miniIcons{
+    margin-left: 30px
+}
+
+.miniIcons img{
+    margin: 4px
+}
+
+.miniIcons img:hover{
+    cursor: pointer;
+    border-bottom: 4px solid pink
+}
+
+/* NAV BAR */
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 4px
+}
+
+.option{
+    display: flex;
+}
+.navBar p {
+    margin-right: 10px;
+    font-size: .8em;
+}
+
+.downArrow{
+    margin-left: -5px ;
+    /* border: 2px solid red */
+    margin-top: 5px;
+    color: gray;
+}
+
+.option:hover{
+    cursor: pointer;
+}
+
+
+/* main */
+
+.topImg{
+    height: 200px;
+    width: 100%
+}
+
+.onImg{
+    background-image: url('https://cms-live.pandora.net/resource/responsive-image/2284802/m63-promotion-module/lg/7/promo-donald-extended-explore.jpg');
+    height: 225px;
+    background-size: contain;
+    /* border: 2px solid black; */
+    /* margin-top: -200px; */
+    font-size: .9em;
+    /* margin-left: 80px; */
+    /* z-index: 3 */
+    display: flex;
+    justify-content: space-between;
+}
+
+.onImg:hover{
+    cursor: pointer;
+}
+
+.onImg .shop{
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.onImg div{
+    margin-left: 80px
+}
+
+.imgContent h3{
+    background-color: pink;
+    width: fit-content;
+    padding: 2px;
+}
+
+.feedback{
+    transform: rotate(90deg);
+    height: 40px;
+    width: 130px;
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    /* margin: 50px -40px 0 0; */
+    position: fixed;
+    margin-left: 1103px;
+    margin-top: 50px
+}
+
+.feedback:hover{
+    cursor: pointer;
+}
+
+.transformImg img{
+    height: 500px;
+    width: 100%;
+    margin-top: 100px
+}
+.transformImg:hover{
+    cursor: pointer;
+}
+.transformText{
+    border: 2px solid red;
+    /* margin: 0 30px -100px 30px */
+    margin-left: 90px;
+    margin-top: -400px;
+    color: white;
+}
+
+.transformText p{
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.transformText h2{
+    font-size: 3em;
+    margin-top: -10px
+}
+
+.transformText button {
+    height: 40px;
+    width: 220px;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/* discover */
+
+.discover{
+    margin-top: 200px;
+    border: 2px solid red
+}
+
+.topDiscover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px
+}
+
+.topDiscover h4{
+    margin-left: 30px;
+    font-size: 1.25em;
+}
+
+.item:hover{
+    cursor: pointer;
+}
+
+.topDiscover .images {
+    display: flex;
+    width: 70%;
+    margin-left: 40px
+}
+
+.topDiscover h4{
+    /* width: 33.333% */
+}
+
+.topDiscover .item {
+    border: thin solid grey;
+    /* width: 10%; */
+    text-align: center;
+    margin: 10px
+}
+
+.item img {
+    height: 100px;
+}
+
+.topDiscover .item p {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    /* padding-bottom: 5px; */
+    font-size: .9em;
+}
+
+.bottomDiscover{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px
+}
+
+.bottomDiscover img{
+    height: 400px;
+    width: 50%
+}
+
+.rightSideDiscover{
+    /* border: 2px solid green; */
+    margin-right: 80px
+}
+
+.rightSideDiscover h3{
+    font-size: 1.75em;
+}
+
+.rightSideDiscover p {
+    margin-top: -15px;
+    font-size: 1.1em;
+}
+
+.rightSideDiscover button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 215px
+}
+
+/* trending now */
+.trending{
+    /* border: 2px solid purple; */
+    margin: 10px
+}
+.trending h3{
+    font-size: 2em;
+    margin-left: 75px;
+    margin-top: 80px;
+}
+
+.itemsTrending{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.itemsTrending .item{
+    /* border: 2px solid green; */
+    margin: 5px
+}
+
+.itemsTrending .item img{
+    height: auto;
+    width: 90%;
+    /* border: 2px solid red; */
+    margin-right: auto;
+}
+.itemsTrending .item p:hover {
+    text-decoration: underline;
+}
+
+.bestSellers{
+    display: flex;
+    margin: 50px auto; 
+    /* hmm works like justify-content center.. centered div */
+
+    justify-content: center;
+    /* this ^ centered text on button */
+    align-items: center;
+}
+
+/* scroll dots */
+
+.scrollDots{
+    height: 40px;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 570px;
+    margin-bottom: -30px
+}
+
+.bestSellers button {
+    height: 40px;
+    width: 220px;
+    background-color: black;
+    color: white;
+    margin-bottom: 80px;
+    border-radius: 5px;
+}
+
+/* personalized */
+.personalized{
+    background-image: url('https://cms-live.pandora.net/resource/responsive-image/2288040/m63-promotion-module/lg/30/byogs-0423-large.jpg');
+    background-size: cover;
+    /* background-position: left; */
+    border: 6px solid pink;
+    height: 175px;
+    margin-top: 50px;
+}
+
+.personalized:hover{
+    cursor: pointer;
+}
+
+.contentPersonalized{
+    margin-left: 100px;
+    padding-top: 20px
+}
+
+.contentPersonalized h3{
+    background-color: pink;
+    width: fit-content;
+    padding: 0 5px
+}
+
+.contentPersonalized button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.stylesContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* align-items: center; */
+}
+
+.leftStyles{
+    margin-top: 140px
+}
+.stylesContainer h3{
+    font-size: 1.75em;
+    margin-top: -3px
+}
+.stylesContainer button {
+    height: 40px;
+    width: 190px;
+    background-color: black;
+    color: white;
+    margin-top: 5px
+}
+
+.stylesContainer button:hover{
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+}
+
+.row .item{
+    border: thin solid grey;
+    margin: 8px;
+    height: 225px;
+    width: 200px;
+    text-align: center;
+}
+
+.row .item img{
+    height: auto;
+    width: 100%
+}
+
+.row .item p{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    margin-top: 50px
+}
+
+/* collections */
+
+.collectionsContainer{
+    
+}
