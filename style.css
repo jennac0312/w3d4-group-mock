@@ -422,5 +422,188 @@ body{
 /* collections */
 
 .collectionsContainer{
-    
+    margin-top: 100px;
+}
+
+.collectionsContainer h3{
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.collectionItems{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.collectionItems .item {
+    width: 33.3333%;
+    margin: 12px;
+}
+
+.collectionItems .item img{
+    height: auto;
+    width: 100%;
+}
+
+.collectionItems .item img+p {
+    font-weight: bold;
+    font-size: 1.35em;
+    margin-top: 12px;
+}
+
+.collectionItems .item p+button{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+    font-size: .7em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.collectionsContainer .scrollDots{
+    margin: 30px 575px;
+    display: flex;
+    text-align: center;
+}
+
+
+/* deals */
+
+.dealsContainer{
+    display: flex;
+    align-items: flex-start;
+    width: 82.5%;
+    margin-top: 200px;
+    /* border: 2px solid black; */
+    margin: auto;
+    text-align: center;
+    background-color: rgb(247, 244, 244);
+    padding: 20px;
+}
+
+.dealsContainer .deal{
+    /* border: 2px solid red; */
+    width: 25%;
+    margin: 10px;
+}
+
+.dealsContainer .deal img {
+    height: 50px;
+}
+
+.dealsContainer .deal img + p {
+    font-size: .8em;
+}
+.dealsContainer .deal img + p + p{
+    font-size: 1.35em;
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+/* hidden */
+.hidden{
+    /* display: none; */
+}
+
+
+/* footer */
+footer{
+    background-color: rgb(247, 244, 244);
+    margin-top: 200px;
+    padding-top: 20px;
+}
+
+footer .top{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+}
+
+footer .left{
+    width: 33%;
+    /* border: 2px solid green; */
+    margin: 20px;
+    /* margin-right: ; */
+    margin-left: 80px;
+}
+.top .left p.title {
+    font-size: 1.20em;
+    margin-bottom: -12px;
+    margin-top: 0px;
+}
+
+p.title + p {
+    font-size: .9em;
+}
+
+footer .right{
+    width: 45%;
+    /* border: 2px solid red; */
+    margin: 20px
+}
+
+.right input.email{
+    height: 42px;
+    width: 275px;
+    border: thin solid black;
+}
+
+.right input.email::placeholder{
+    padding-left: 10px
+}
+
+.right button{
+    height: 46px;
+    width: 110px;
+    margin-left: -10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.right .input{
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    font-size: .9em;
+}
+
+.right .input input{
+    border: 2px solid grey;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+.grey{
+    color: grey
+}
+
+.grey .inputText {
+    margin-top: 0
+}
+
+.smallText{
+    margin-top: -10px;
+}
+
+.smallText .small{
+    font-size: .7em;
+    margin-bottom: 10px;
+    /* color: red; */
+}
+
+.small a{
+    color: gray;
 }
